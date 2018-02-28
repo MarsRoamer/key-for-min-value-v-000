@@ -7,7 +7,7 @@ number = 999999999999999999999
 word = ''
 
 if name_hash.empty?
-  nil
+  return nil
 else
 
 name_hash.each do |key, value|
