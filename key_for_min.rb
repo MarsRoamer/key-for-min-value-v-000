@@ -9,7 +9,7 @@ word = ''
 if name_hash.empty?
   nil
 else
-  
+
 name_hash.each do |key, value|
   if value < number
     number = value
