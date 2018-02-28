@@ -7,7 +7,7 @@ number = 999999999999999999999
 word = ''
 
 name_hash.each do |key, value|
-  if key < number
+  if value < number
     number = value
     word = key
 end
