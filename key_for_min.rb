@@ -6,12 +6,16 @@ arr = []
 number = 999999999999999999999
 word = ''
 
+if name_hash.empty?
+  nil
+else
+  
 name_hash.each do |key, value|
   if value < number
     number = value
     word = key
 end
-
+end
 end
 word
 end
