@@ -11,6 +11,7 @@ name_hash.each do |key, value|
     number = value
     word = key
 end
-word
+
 end
+word
 end
